@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.fastcampus.ch3">
+        <context:exclude-filter type="regex" expression="com.fastcampus.ch3.diCopy3*.*"/>
+    </context:component-scan>
+    <context:annotation-config/> <!--원래는 있어야하지만 compoenent-scan이 있어 생략 가능-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<bean id="car" class="com.fastcampus.ch3.Car" scope="prototype">   &lt;!&ndash;prototype운 getBean할 때마다 새로운 객체를 생성&ndash;&gt;-->
+<!--        <constructor-arg name="color" value="red"/>-->
+<!--        <constructor-arg name="oil" value="100"/>-->
+<!--        <constructor-arg name="engine" ref="engine"/>-->
+<!--        <constructor-arg name="doors">-->
+<!--            <array value-type="com.fastcampus.ch3.Door">-->
+<!--                <ref bean="door"/>-->
+<!--                <ref bean="door"/>-->
+<!--            </array>-->
+<!--        </constructor-arg>-->
+<!--        -->
+<!--&lt;!&ndash;        <property name="color" value="red"/>-->
+<!--        <property name="oil" value="100"/>-->
+<!--        <property name="engine" ref="engine"/>-->
+<!--        <property name="doors">-->
+<!--            <array value-type="com.fastcampus.ch3.Door">-->
+<!--                <ref bean="door"/>-->
+<!--                <ref bean="door"/>-->
+<!--            </array>-->
+<!--        </property>&ndash;&gt;-->
+<!--        -->
+<!--    </bean>-->
+<!--    <bean id="engine" class="com.fastcampus.ch3.Engine" scope="singleton"/> &lt;!&ndash;singleton은 기본 값이라 생략 가능하다&ndash;&gt;-->
+<!--    <bean id="door" class="com.fastcampus.ch3.Door" scope="prototype"/>-->
+</beans>
