@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.fastcampus.ch3">
-        <context:exclude-filter type="regex" expression="com.fastcampus.ch3.diCopy3*.*"/>
+        <context:exclude-filter type="regex" expression="com.fastcampus.ch3.diCopy*.*"/>
     </context:component-scan>
     <context:annotation-config/> <!--원래는 있어야하지만 compoenent-scan이 있어 생략 가능-->
 
@@ -20,7 +20,7 @@
 
 
 
-    <!--<bean id="car" class="com.fastcampus.ch3.Car" scope="prototype">   &lt;!&ndash;prototype운 getBean할 때마다 새로운 객체를 생성&ndash;&gt;-->
+<!--    <bean id="car" class="com.fastcampus.ch3.Car" scope="prototype">   &lt;!&ndash;prototype운 getBean할 때마다 새로운 객체를 생성&ndash;&gt;-->
 <!--        <constructor-arg name="color" value="red"/>-->
 <!--        <constructor-arg name="oil" value="100"/>-->
 <!--        <constructor-arg name="engine" ref="engine"/>-->
@@ -30,8 +30,8 @@
 <!--                <ref bean="door"/>-->
 <!--            </array>-->
 <!--        </constructor-arg>-->
-<!--        -->
-<!--&lt;!&ndash;        <property name="color" value="red"/>-->
+
+<!--&lt;!&ndash;        <property name="color" value="red"/>   property태그는 자바코드에서 setter를 대신한다-->
 <!--        <property name="oil" value="100"/>-->
 <!--        <property name="engine" ref="engine"/>-->
 <!--        <property name="doors">-->
@@ -41,7 +41,7 @@
 <!--            </array>-->
 <!--        </property>&ndash;&gt;-->
 <!--        -->
-<!--    </bean>-->
+<!--   </bean>-->
 <!--    <bean id="engine" class="com.fastcampus.ch3.Engine" scope="singleton"/> &lt;!&ndash;singleton은 기본 값이라 생략 가능하다&ndash;&gt;-->
 <!--    <bean id="door" class="com.fastcampus.ch3.Door" scope="prototype"/>-->
 </beans>
