@@ -3,17 +3,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.fastcampus.ch4.dao.BoardMapper">
+    <select id="select" parameterType="int" resultType="BoardDto">
+        <include refid="selectFromBoard"/>
+        WHERE bno = #{bno}
+    </select>
+
     <select id="count" resultType="int">
         SELECT count(*) FROM board
     </select>
-
-    <delete id="deleteAll">
-        DELETE FROM board
-    </delete>
-
-    <delete id="delete" parameterType="map">
-        DELETE FROM board WHERE bno = #{bno} and writer = #{writer}
-    </delete>
 
     <insert id="insert" parameterType="BoardDto">
         INSERT INTO board
@@ -21,28 +18,6 @@
         VALUES
             (#{title}, #{content}, #{writer})
     </insert>
-
-    <select id="selectAll" resultType="BoardDto">
-        SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date
-        FROM board
-        ORDER BY reg_date DESC, bno DESC
-    </select>
-
-    <sql id="selectFromBoard">
-        SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date
-        FROM board
-    </sql>
-
-    <select id="select" parameterType="int" resultType="BoardDto">
-        <include refid="selectFromBoard"/>
-        WHERE bno = #{bno}
-    </select>
-
-    <select id="selectPage" parameterType="map" resultType="BoardDto">
-        <include refid="selectFromBoard"/>
-        ORDER BY reg_date DESC, bno DESC
-        LIMIT #{offset}, #{pageSize}
-    </select>
 
     <update id="update" parameterType="BoardDto">
         UPDATE board
@@ -52,16 +27,49 @@
         WHERE bno = #{bno}
     </update>
 
-    <update id="updateCommentCnt" parameterType="map">
-        UPDATE board
-        SET   comment_cnt = comment_cnt + #{cnt}
-        WHERE bno = #{bno}
-    </update>
+    <delete id="delete" parameterType="map">
+        DELETE FROM board WHERE bno = #{bno} and writer = #{writer}
+    </delete>
+
+    <delete id="deleteForAdmin">
+        DELETE FROM board WHERE bno = #{bno}
+    </delete>
+
+
+    <select id="selectAll" resultType="BoardDto">
+        SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date
+        FROM board
+        ORDER BY reg_date DESC, bno DESC
+    </select>
 
     <update id="increaseViewCnt" parameterType="int">
         UPDATE board
         SET   view_cnt = view_cnt + 1
         WHERE bno = #{bno}
     </update>
+
+    <delete id="deleteAll">
+        DELETE FROM board
+    </delete>
+
+    <sql id="selectFromBoard">
+        SELECT bno, title, content, writer, view_cnt, comment_cnt, reg_date
+        FROM board
+    </sql>
+
+
+    <select id="selectPage" parameterType="map" resultType="BoardDto">
+        <include refid="selectFromBoard"/>
+        ORDER BY reg_date DESC, bno DESC
+        LIMIT #{offset}, #{pageSize}
+    </select>
+
+
+    <update id="updateCommentCnt" parameterType="map">
+        UPDATE board
+        SET   comment_cnt = comment_cnt + #{cnt}
+        WHERE bno = #{bno}
+    </update>
+
 
 </mapper>
