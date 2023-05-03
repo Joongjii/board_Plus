@@ -31,13 +31,21 @@
         <button type="button" id="writeBtn" class="btn">등록</button>
         <button type="button" id="modifyBtn" class="btn">수정</button>
         <button type="button" id="removeBtn" class="btn">삭제</button>
-        <button type="button" id="lsitBtn" class="btn">목록</button>
+        <button type="button" id="listBtn" class="btn">목록</button>
     </form>
 </div>
 <script>
     $(document).ready(function(){ // main()과 같은 역할이라고 보면된다
         $('#listBtn').on("click",function (){
-            location.href = "<c:url value='/board/list'/>?page=${page}&pageSize=${pageSize}";
+            alert("listBtn clicked")
+                location.href = "<c:url value='/board/list'/>?page=${page}&pageSize=${pageSize}";
+        });
+        $('#removeBtn').on("click",function (){
+           if(!confirm("정말로 삭제하시겠습니까?")) return;
+           let form = $('form');
+           form.attr("action", "<c:url value='/board/remove'/>?page=${page}&pageSize=${pageSize}");
+           form.attr("method", "post")
+           form.submit();
         });
     });
 </script>
