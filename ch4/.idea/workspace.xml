@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="git ignore">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/boardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/boardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/boardMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,33 +65,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4/src/main/java/com/fastcampus/ch4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3ee3610c5d928069e7658a07faacb839&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_directory_selection": "C:/Users/guswn/IdeaProjects/ch4/src/main/java/com/fastcampus/ch4",
+    "last_opened_file_path": "C:/Users/guswn/IdeaProjects/ch4",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15234375",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "3ee3610c5d928069e7658a07faacb839",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.fastcampus.ch4.domain" />
@@ -321,7 +305,7 @@
       <workItem from="1682983555913" duration="4180000" />
       <workItem from="1683107473083" duration="2681000" />
       <workItem from="1683810651269" duration="1010000" />
-      <workItem from="1683851866554" duration="17237000" />
+      <workItem from="1683851866554" duration="17642000" />
     </task>
     <task id="LOCAL-00001" summary="게시판 MVC 및 페이징 처리 (소급)">
       <created>1682926324448</created>
@@ -337,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682932945516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore">
+      <created>1683892180447</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683892180447</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
