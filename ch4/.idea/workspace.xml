@@ -9,7 +9,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="git ignore" />
+    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="git ignore">
+      <change afterPath="$PROJECT_DIR$/../boardMVC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boardMVC/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/dao/BoardDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/dao/BoardDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/controller/BoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/dao/BoardDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/dao/BoardDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/domain/BoardDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/domain/PageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/service/BoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/mapper/boardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/checker-qual-3.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/error_prone_annotations-2.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/guava-31.0.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mybatis-3.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/boardList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/loginForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ch4-1.0.0-BUILD-SNAPSHOT/resources/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/BoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/domain/BoardDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/domain/PageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/service/BoardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/service/BoardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/boardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.fastcampus/ch4/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/com.fastcampus/ch4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fastcampus/ch4/dao/BoardDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fastcampus/ch4/domain/PageHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +113,8 @@
         <option value="CSS File" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,35 +157,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_directory_selection": "C:/Users/guswn/IdeaProjects/ch4/src/main/java/com/fastcampus/ch4",
-    "last_opened_file_path": "C:/Users/guswn/IdeaProjects/ch4",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15234375",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "3ee3610c5d928069e7658a07faacb839",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4/src/main/java/com/fastcampus/ch4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My-Final-Project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3ee3610c5d928069e7658a07faacb839&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fastcampus.ch4.dao" />
       <recent name="com.fastcampus.ch4.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -106,32 +199,20 @@
       <recent name="com.fastcampus.ch4.service" />
       <recent name="com.fastcampus.ch4.dao" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fastcampus.ch4.domain" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.fastcampus.ch4.domain" />
       <recent name="com.fastcampus.ch4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.521">
-    <configuration name="BoardDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fastcampus.ch4.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.dao.BoardDaoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BoardDaoImplTest.searchSelectPageTest">
     <configuration name="BoardDaoImplTest.insertTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fastcampus.ch4.dao.*" />
+          <option name="PATTERN" value="com.fastcampus.ch4.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,32 +224,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardDaoImplTest.searchSelectCntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fastcampus.ch4.domain.*" />
+          <option name="PATTERN" value="com.fastcampus.ch4.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.domain.PageHandlerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.dao.BoardDaoImplTest" />
+      <option name="METHOD_NAME" value="searchSelectCntTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageHandlerTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardDaoImplTest.searchSelectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fastcampus.ch4.domain.*" />
+          <option name="PATTERN" value="com.fastcampus.ch4.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.domain.PageHandlerTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.dao.BoardDaoImplTest" />
+      <option name="METHOD_NAME" value="searchSelectPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoardDaoImplTest.searchSelectPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fastcampus.ch4.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fastcampus.ch4.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.fastcampus.ch4.dao.BoardDaoImplTest" />
+      <option name="METHOD_NAME" value="searchSelectPageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BoardDaoImplTest.searchSelectPageTest" />
+        <item itemvalue="JUnit.BoardDaoImplTest.searchSelectCntTest" />
+        <item itemvalue="JUnit.BoardDaoImplTest.searchSelectPage" />
         <item itemvalue="JUnit.PageHandlerTest.test4" />
         <item itemvalue="JUnit.BoardDaoImplTest.insertTestData" />
-        <item itemvalue="JUnit.BoardDaoImplTest" />
-        <item itemvalue="JUnit.PageHandlerTest" />
-        <item itemvalue="JUnit.PageHandlerTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +403,23 @@
       <workItem from="1682983555913" duration="4180000" />
       <workItem from="1683107473083" duration="2681000" />
       <workItem from="1683810651269" duration="1010000" />
-      <workItem from="1683851866554" duration="17642000" />
+      <workItem from="1683851866554" duration="19780000" />
+      <workItem from="1683936010217" duration="14117000" />
+      <workItem from="1683954850328" duration="2326000" />
+      <workItem from="1683959754871" duration="1361000" />
+      <workItem from="1683963814258" duration="470000" />
+      <workItem from="1684049133851" duration="1946000" />
+      <workItem from="1684054590942" duration="718000" />
+      <workItem from="1684141399978" duration="2707000" />
+      <workItem from="1684201169304" duration="6000" />
+      <workItem from="1684310849011" duration="371000" />
+      <workItem from="1684324409163" duration="266000" />
+      <workItem from="1684372620778" duration="623000" />
+      <workItem from="1684550482735" duration="14917000" />
+      <workItem from="1684627882264" duration="238000" />
+      <workItem from="1684629385776" duration="2365000" />
+      <workItem from="1684749319969" duration="576000" />
+      <workItem from="1685149245069" duration="4160000" />
     </task>
     <task id="LOCAL-00001" summary="게시판 MVC 및 페이징 처리 (소급)">
       <created>1682926324448</created>
@@ -328,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683892180447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git ignore">
+      <created>1683892628127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683892628127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
