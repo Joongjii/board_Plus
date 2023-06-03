@@ -18,24 +18,10 @@ public class BoardDaoImplTest {
     private BoardDao boardDao;
 
     @Test
-    public void searchSelectCntTest() throws Exception{
-        boardDao.deleteAll();
-        for (int i = 1; i <= 20; i++) {
-            BoardDto boardDto =new BoardDto("title"+i,"asdfasdfasdf","asdf");
-            boardDao.insert(boardDto);
-        }
-
-        SearchCondition sc = new SearchCondition(1, 10, "title2","T"); //title2%
-        int cnt =  boardDao.searchResultCnt(sc);
-        System.out.println("cnt = " + cnt);
-        assertTrue(cnt == 2); //1~20 중에 title2,title20가 나와야한다
-
-    }
-    @Test
     public void searchSelectPageTest() throws Exception{
         boardDao.deleteAll();
         for (int i = 1; i <= 20; i++) {
-            BoardDto boardDto =new BoardDto("title"+i,"asdfasdfasdf","asdf");
+            BoardDto boardDto =new BoardDto("title"+i,"asdfasdfasdf","asdf"+i);
             boardDao.insert(boardDto);
         }
 
@@ -44,12 +30,37 @@ public class BoardDaoImplTest {
         // System.out.println("list = " + list);
         assertTrue(list.size() == 2); //1~20 중에 title2,title20가 나와야한다
 
+        sc = new SearchCondition(1, 10, "asdf2","W"); //asdf2%로 시작하는
+        list =  boardDao.searchSelectPage(sc);
+        // System.out.println("list = " + list);
+        assertTrue(list.size() == 2); //1~20 중에 asdf2,asdf20 나와야한다
+
+
+    }
+    @Test
+    public void searchResultCntTest() throws Exception{
+        boardDao.deleteAll();
+        for (int i = 1; i <= 20; i++) {
+            BoardDto boardDto =new BoardDto("title"+i,"asdfasdfasdf","asdf"+i);
+            boardDao.insert(boardDto);
+        }
+
+        SearchCondition sc = new SearchCondition(1, 10, "title2","T"); //title2%
+        int cnt =  boardDao.searchResultCnt(sc);
+        System.out.println("cnt = " + cnt);
+        assertTrue(cnt == 2); //1~20 중에 title2,title20가 나와야한다
+
+        sc = new SearchCondition(1, 10, "asdf2","W"); //title2%
+        cnt =  boardDao.searchResultCnt(sc);
+        System.out.println("cnt = " + cnt);
+        assertTrue(cnt == 2); //1~20 중에 asdf2,asdf20가 나와야한다
+
     }
 
     @Test
     public void insertTestData() throws Exception{
         boardDao.deleteAll();
-        for(int i=1; i <=220; i++){
+        for(int i=1; i <= 220; i++){
             BoardDto boardDto = new BoardDto("title"+i, "no content","asdf");
             boardDao.insert(boardDto);
         }

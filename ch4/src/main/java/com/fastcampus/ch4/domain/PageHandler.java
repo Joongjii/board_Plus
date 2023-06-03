@@ -1,26 +1,37 @@
 package com.fastcampus.ch4.domain;
 
+import org.springframework.web.util.UriComponentsBuilder;
+
 public class PageHandler {
+//    private int page; //현재 페이지
+//    private int pageSize; // 한 페이지의 크기
+//    private String option;
+//    private String keyword;
+
+
+    private SearchCondition sc;
+
     private int totalCnt;
-    private int pageSize;
     private int naviSize=10;
     private int totalPage;
-    private int page;
     private  int beginPage;
     private  int endPage;
     private boolean showPrev;
     private boolean showNext;
 
-    public PageHandler(int totalCnt, int page){
-        this(totalCnt, page,10);
-    }
-    public PageHandler(int totalCnt, int page, int pageSize){
-        this.totalCnt = totalCnt;
-        this.page = page;
-        this.pageSize =pageSize;
 
-        totalPage = (int) Math.ceil(totalCnt / (double)pageSize);
-        beginPage = (page-1) / naviSize * naviSize + 1;
+    public PageHandler(int totalCnt, SearchCondition sc){
+        this.totalCnt =totalCnt;
+        this.sc = sc;
+
+        doPaging(totalCnt, sc);
+    }
+
+    public void doPaging(int totalCnt, SearchCondition sc){
+        this.totalCnt = totalCnt;
+
+        totalPage = (int) Math.ceil(totalCnt / (double)sc.getPageSize());
+        beginPage = (sc.getPage()-1) / naviSize * naviSize + 1;
         endPage = Math.min(beginPage + naviSize - 1 , totalPage);
         showPrev = beginPage != 1;
         showNext = endPage != totalPage;
@@ -29,12 +40,34 @@ public class PageHandler {
 
 
     void print(){
-        System.out.println("page = " + page);
+        System.out.println("page = " + sc.getPage());
         System.out.print(showPrev ? "[PREV]" : "");
         for(int i = beginPage; i <=endPage; i++){
             System.out.print(i+" ");
         }
         System.out.println(showNext ? "[NEXT]" : "");
+    }
+
+    public String getQueryString(Integer page){
+        // ?page=1&pageSize=10&option=T&keyword="title"
+        return UriComponentsBuilder.newInstance()
+                .queryParam("page", page)
+                .queryParam("pageSize", sc.getPageSize())
+                .queryParam("option", sc.getOption())
+                .queryParam("keyword", sc.getKeyword())
+                .build().toString();
+    }
+    public String getQueryString() {
+        // ?page=1&pageSize=10&option=T&keyword="title"
+        return getQueryString(sc.getPage());
+
+    }
+    public SearchCondition getSc() {
+        return sc;
+    }
+
+    public void setSc(SearchCondition sc) {
+        this.sc = sc;
     }
 
     public int getTotalCnt() {
@@ -45,13 +78,6 @@ public class PageHandler {
         this.totalCnt = totalCnt;
     }
 
-    public int getPageSize() {
-        return pageSize;
-    }
-
-    public void setPageSize(int pageSize) {
-        this.pageSize = pageSize;
-    }
 
     public int getNaviSize() {
         return naviSize;
@@ -67,14 +93,6 @@ public class PageHandler {
 
     public void setTotalPage(int totalPage) {
         this.totalPage = totalPage;
-    }
-
-    public int getPage() {
-        return page;
-    }
-
-    public void setPage(int page) {
-        this.page = page;
     }
 
     public int getBeginPage() {
@@ -109,14 +127,14 @@ public class PageHandler {
         this.showNext = showNext;
     }
 
+
     @Override
     public String toString() {
         return "PageHandler{" +
-                "totalCnt=" + totalCnt +
-                ", pageSize=" + pageSize +
+                "sc=" + sc +
+                ", totalCnt=" + totalCnt +
                 ", naviSize=" + naviSize +
                 ", totalPage=" + totalPage +
-                ", page=" + page +
                 ", beginPage=" + beginPage +
                 ", endPage=" + endPage +
                 ", showPrev=" + showPrev +
