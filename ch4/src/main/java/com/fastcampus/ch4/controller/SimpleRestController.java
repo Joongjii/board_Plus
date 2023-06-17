@@ -22,16 +22,16 @@ public class SimpleRestController {
                   //ResponseBody에 의해 적용
     }
 
-    @PostMapping("/send")
-  //  @ResponseBody
-    public Person test2(@RequestBody Person p) {
-        System.out.println("p = " + p);
-        p.setName("ABC");
-        p.setAge(p.getAge() + 10);
-
-        return p; //뷰 이름이 아니라 객체를 반환한다
-        //ResponseBody에 의해 적용
-    }
+//    @PostMapping("/send")
+//  //  @ResponseBody
+//    public Person test2(@RequestBody Person p) {
+//        System.out.println("p = " + p);
+//        p.setName("ABC");
+//        p.setAge(p.getAge() + 10);
+//
+//        return p; //뷰 이름이 아니라 객체를 반환한다
+//        //ResponseBody에 의해 적용
+//    }
 
     // @RestController는 @ResponseBody + @Controller이다
 

@@ -1019,7 +1019,7 @@ springbasic|schema||mc||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="307" parent="295" name="bno">
-      <AutoIncrement>424</AutoIncrement>
+      <AutoIncrement>425</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1070,7 +1070,7 @@ springbasic|schema||mc||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="317" parent="296" name="cno">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>21</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>

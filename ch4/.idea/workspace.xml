@@ -9,27 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="git ignore 재설정">
+    <list default="true" id="5c74f5f4-7a3c-4329-a7e3-4714560af70c" name="Changes" comment="Commnet Server">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/dao/BoardDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/domain/PageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/domain/PageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/domain/SearchCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/domain/SearchCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/boardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/dao/BoardDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/dao/BoardDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/domain/PageHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fastcampus/ch4/domain/PageHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/controller/BoardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/dao/BoardDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/domain/PageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fastcampus/ch4/domain/PageHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/boardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/boardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/SimpleRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/SimpleRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/CommentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +25,9 @@
       <list>
         <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -138,7 +122,7 @@
       <recent name="com.fastcampus.ch4.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommentServiceImplTest.remove">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.521">
     <configuration name="BoardDaoImplTest.searchResultCntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch4" />
       <extension name="coverage">
@@ -356,7 +340,16 @@
       <workItem from="1685519652103" duration="4717000" />
       <workItem from="1685702586217" duration="2965000" />
       <workItem from="1685754415216" duration="12010000" />
-      <workItem from="1685772384699" duration="312000" />
+      <workItem from="1685772384699" duration="483000" />
+      <workItem from="1686116243391" duration="7287000" />
+      <workItem from="1686290781867" duration="138000" />
+      <workItem from="1686304739234" duration="687000" />
+      <workItem from="1686368495638" duration="5728000" />
+      <workItem from="1686440794899" duration="4294000" />
+      <workItem from="1686632906681" duration="8536000" />
+      <workItem from="1686809298958" duration="8124000" />
+      <workItem from="1686906377145" duration="580000" />
+      <workItem from="1686966082329" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="게시판 MVC 및 페이징 처리 (소급)">
       <created>1682926324448</created>
@@ -393,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685155216505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commnet Server">
+      <created>1685772858311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685772858311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,7 +415,8 @@
     <MESSAGE value="Unversion 확인" />
     <MESSAGE value="git ignore" />
     <MESSAGE value="git ignore 재설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore 재설정" />
+    <MESSAGE value="Commnet Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commnet Server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
