@@ -13,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8fdf3d0e-ccbd-4e1e-8db4-9a8fb3bc3df2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/SimpleRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/SimpleRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/service/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/commnetMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/commnetMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4/src/main/java/com/fastcampus/ch4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4/src/main/resources/mapper&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guswn/IdeaProjects/ch4/src/main/webapp/WEB-INF/views&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -103,8 +103,8 @@
       <recent name="com.fastcampus.ch4.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\guswn\IdeaProjects\ch4\src\main\resources\mapper" />
       <recent name="C:\Users\guswn\IdeaProjects\ch4\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\guswn\IdeaProjects\ch4\src\main\resources\mapper" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -349,7 +349,8 @@
       <workItem from="1686632906681" duration="8536000" />
       <workItem from="1686809298958" duration="8124000" />
       <workItem from="1686906377145" duration="580000" />
-      <workItem from="1686966082329" duration="3654000" />
+      <workItem from="1686966082329" duration="18428000" />
+      <workItem from="1687074498992" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="게시판 MVC 및 페이징 처리 (소급)">
       <created>1682926324448</created>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685772858311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commnet Server">
+      <created>1686970070746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686970070746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +425,17 @@
     <MESSAGE value="git ignore 재설정" />
     <MESSAGE value="Commnet Server" />
     <option name="LAST_COMMIT_MESSAGE" value="Commnet Server" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fastcampus/ch4/controller/CommentController.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

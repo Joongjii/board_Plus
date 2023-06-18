@@ -1070,7 +1070,7 @@ springbasic|schema||mc||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="317" parent="296" name="cno">
-      <AutoIncrement>21</AutoIncrement>
+      <AutoIncrement>30</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
